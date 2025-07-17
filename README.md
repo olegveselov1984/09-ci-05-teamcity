@@ -21,10 +21,11 @@
 
 5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
 
-
+<img width="1076" height="599" alt="image" src="https://github.com/user-attachments/assets/d6612e83-b411-4978-a70b-13cd40ffd056" />
 
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
 
+<img width="1307" height="424" alt="image" src="https://github.com/user-attachments/assets/002eb887-4f83-48b3-9898-4be4746ac963" />
 
 
 
