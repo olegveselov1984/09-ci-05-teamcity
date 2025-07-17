@@ -16,7 +16,18 @@
       package:
         name: [java-1.8.0-openjdk, java-1.8.0-openjdk-devel]
         state: present
+    # - name: Install acl  #Добавлен был таск для Fedora
+    #   become: true
+    #   package:
+    #     name: [acl-2.3.1-4.fc37]
+    #     state: present
+
+
   tasks:
+    - name: Temporarily disable SELinux #Добавлен таск
+      command: setenforce 0
+      become: true
+      ignore_errors: true
     - name: Create Nexus directories
       become: true
       file:
@@ -24,6 +35,8 @@
         owner: "{{ nexus_user_name }}"
         path: "{{ item }}"
         state: directory
+        mode: 0755           #Добавлена строка
+        recurse: yes
       with_items:
         - "{{ nexus_directory_log }}"
         - "{{ nexus_directory_data }}"

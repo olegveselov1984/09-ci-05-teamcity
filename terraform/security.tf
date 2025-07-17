@@ -34,6 +34,13 @@ variable "security_group_ingress" {
       v4_cidr_blocks = ["0.0.0.0/0"]
       port           = 8111
     },
+    {
+      protocol       = "TCP"
+      description    = "разрешить входящий 8081 Для Nexus"
+      v4_cidr_blocks = ["0.0.0.0/0"]
+      port           = 8081
+    },
+
   ]
 }
 

@@ -70,7 +70,8 @@ module "module-srv-vm" {
   instance_memory = 4
   instance_name  = "srv-vm"
   env_name = "srv-vm"
-  image_family   = "centos-7"
+  image_family   = "centos-stream-9-oslogin"  
+#  image_family   = "fedora-37"    # FEDORA!!!!!!!!!!!!!!!!!
   public_ip      = true
   security_group_ids = [
   yandex_vpc_security_group.example.id 
