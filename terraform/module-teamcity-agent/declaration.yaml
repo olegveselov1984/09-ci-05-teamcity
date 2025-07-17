@@ -1,0 +1,11 @@
+spec:
+  containers:
+  - image: jetbrains/teamcity-agent
+    env:
+    - name: SERVER_URL
+      value: http://158.160.96.204:8111
+
+    securityContext:
+      privileged: false
+    stdin: false
+    tty: false
