@@ -25,6 +25,7 @@
 
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
 
+<img width="1307" height="424" alt="image" src="https://github.com/user-attachments/assets/002eb887-4f83-48b3-9898-4be4746ac963" />
 
 
 
