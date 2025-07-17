@@ -16,10 +16,20 @@
 
 4. Авторизуйте агент.
 
+<img width="952" height="380" alt="image" src="https://github.com/user-attachments/assets/41804a23-4224-4255-b163-b4c83dc2653a" />
 
 
 5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
+
+
+
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
+
+
+
+
+
+
 
 ## Основная часть
 
